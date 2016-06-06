@@ -1,0 +1,138 @@
+
+.top {
+	height:100px;
+	width:auto;
+	/*background-color: pink;*/
+}
+
+.lock {
+	opacity: .5;
+	position: relative;
+	top: 50px;
+}
+
+.activePlayer {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.content {
+	overflow: hidden;
+	height: 900px;
+    /*background: red;*/
+}
+
+.scoreTop {
+	height: 100px;
+}
+
+.scoreboard {
+    float: left;
+    width: 200px;
+    /*background: purple;*/
+    height: 100%;
+}
+
+.players li {
+	margin-bottom: 10px;
+	margin-left: 10px;
+	font-family: arial, monospace;
+	/*background-color: pink;*/
+}
+
+.display {
+	overflow: hidden;
+    width: 700px;
+    /*background: yellow;*/
+    height: 350px;
+}
+
+.info {
+    margin: 5px 0 0;
+    height: 75px;
+    /*background: cyan;*/
+    font-family: arial, monospace;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.points {
+	float:left;
+	height:25px;
+	width:100px;
+	margin-top: 20px;
+	margin-left: 200px;
+	/*background-color: yellow;*/
+	font-family: arial, monospace;
+}
+
+.numberOfRoll {
+	float:right;
+	height:25px;
+	width:100px;
+	margin-top: 20px;
+	margin-right: 200px;
+	/*background-color: orange;*/
+	font-family: arial, monospace;
+}
+
+.dice {
+	margin-top: 100px;
+	margin-left: 120px;
+	/*background-color: grey;*/
+
+}
+
+.die {
+  height: 50px;
+  width: 50px;
+  margin: 10px 10px 10px 10px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-family: arial, monospace;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+  float:left;
+}
+
+.control {
+   /* background: blue;*/
+    height: 100px; 
+}
+
+button {
+	width: 100px;
+	padding: 10px;
+	border: 2px solid white;
+	border-radius: 6px;
+	background-color: red;
+	color: white;
+	font-size: 20px;
+}
+
+.roll {
+	float: left;
+	margin-left: 400px;
+}
+
+.stay {
+	float: left;
+	margin-left: 50px;		
+}
+
+.rules {
+	width: 500px;
+	margin-top: 50px;
+	float: left;
+	margin-left: 295px;
+	font-family: arial, monospace;
+	line-height: 20px;
+	/*background-color: grey;*/
+}
+
+.rules h2 {
+	font-weight: bold;
+}

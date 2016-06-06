@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+<title>ZILCH</title>
+<link rel='stylesheet' href='css/reset.css'/>
+<link rel='stylesheet' media='screen' type='text/css' href='css/ZILCHCSS.css'/>
+</head>
+<body>
+
+<div class="container">
+        <div class="top">
+            <div class="scoreboard">
+            	<div class="scoreTop"></div>
+            	<div class="scoreBottom">
+            		<ul class="players">
+            			<li id="playerOne" class="activePlayer">Player One: <span>0</span></li>
+						<li id="playerTwo" class="">Player Two: <span>0</span></li>
+					</ul>
+				</div>
+            </div>
+
+        	<div class="display">
+                <div class="info"><h1>ZILCH</h1></div>
+                	<div class="points">Points: <span>0</span></div>
+					<div class="numberOfRoll">Roll: <span>0</span></div>
+             	<div class="dice">
+					<div id="die-1" class="die">6</div>
+					<div id="die-2" class="die">3</div>
+					<div id="die-3" class="die">4</div>
+					<div id="die-4" class="die">2</div>
+					<div id="die-5" class="die">2</div>
+					<div id="die-6" class="die">4</div>
+				</div>
+        </div>
+
+        <div class="control">
+			<div class="buttons">
+				<button class="roll">ROLL</button>
+				<button class="stay">STAY</button>
+        	</div>
+        	<div class="rules">
+        	<h2>Points:</h2>
+        	<ul>
+        		<li>1's = 100</li>
+        		<li>5's = 50</li>
+        		<li>Three of a kind = 100x number on dice (except three 1's = 1000)</li>
+        		<li>Six of a kind = 6000</li>
+        		<li>1, 2, 3, 4, 5, 6 (straight) = 2000</li>
+        		<li>1, 1, 6, 6, 3, 4 = 1600</li>
+        		<li>1, 2, 2, 3, 3, 3 = 6x next roll of dice</li>
+        		<li>3, 3, 3, 3 + 1, 1 or 5, 5 = 1200 + 100x face value of next roll</li>
+        		<li>Three pairs = 1200</li>
+        		<li>Two triples = 2200</li>
+        	</ul>
+        	<h2>Rules:</h2>
+        	<ul>
+        		<li>Game 10,000 points</li>
+        		<li>To open 750 points</li>
+        	</ul>
+        	<p>
+Roll 6 dice - if points are made put those dice aside and roll remaining dice - if more points are made put those dice aside and roll remaining dice - continue until you roll no points in which case you ZILCH and lose your points for that turn OR you roll points on all six dice in which case you may re-roll all six dice. You may "Stay" to add your points to your score total and end your turn at any time. Remember if a roll does not make any points you get ZILCH and your turn is over. You MUST HAVE 750 POINTS IN ONE TURN TO FIRST GET ON THE BOARD. When a player reaches 10000 points or more the other player gets one turn to beat the winning player's score.</p>
+			</div>
+        </div>
+    </div>
+
+    <footer>
+    </footer>
+</div>
+   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src='js/ZILCHJS.js'></script>
+
+</body>
+</html>
